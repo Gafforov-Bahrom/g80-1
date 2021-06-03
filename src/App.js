@@ -20,6 +20,7 @@ class App extends Component {
         }
         return (
             <div className="body">
+                <h1>Hello everybody!!!</h1>
                 <button type="button" onClick={onClick}>Change</button>
                 {
                     this.state.isRegistered ? <SignUp/> : <LogIn/>
